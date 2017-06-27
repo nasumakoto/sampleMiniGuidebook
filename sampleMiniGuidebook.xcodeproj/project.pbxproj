@@ -14,6 +14,12 @@
 		AF4BE08D1EF79BC2006C42E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4BE08B1EF79BC2006C42E7 /* LaunchScreen.storyboard */; };
 		AF4BE0981EF79BC3006C42E7 /* sampleMiniGuidebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4BE0971EF79BC3006C42E7 /* sampleMiniGuidebookTests.swift */; };
 		AF4BE0A31EF79BC3006C42E7 /* sampleMiniGuidebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4BE0A21EF79BC3006C42E7 /* sampleMiniGuidebookUITests.swift */; };
+		AF4BE0B11EF7A67E006C42E7 /* placelist.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF4BE0B01EF7A67E006C42E7 /* placelist.plist */; };
+		AF4BE0B51EF7B4D9006C42E7 /* second.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4BE0B41EF7B4D9006C42E7 /* second.swift */; };
+		AF4BE0BA1EF90897006C42E7 /* jolibee.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF4BE0B61EF90897006C42E7 /* jolibee.jpeg */; };
+		AF4BE0BB1EF90897006C42E7 /* sm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF4BE0B71EF90897006C42E7 /* sm.jpeg */; };
+		AF4BE0BC1EF90897006C42E7 /* ayara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF4BE0B81EF90897006C42E7 /* ayara.jpg */; };
+		AF4BE0BD1EF90897006C42E7 /* inasal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF4BE0B91EF90897006C42E7 /* inasal.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		AF4BE09E1EF79BC3006C42E7 /* sampleMiniGuidebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleMiniGuidebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4BE0A21EF79BC3006C42E7 /* sampleMiniGuidebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleMiniGuidebookUITests.swift; sourceTree = "<group>"; };
 		AF4BE0A41EF79BC3006C42E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4BE0B01EF7A67E006C42E7 /* placelist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = placelist.plist; sourceTree = "<group>"; };
+		AF4BE0B41EF7B4D9006C42E7 /* second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = second.swift; path = ../second.swift; sourceTree = "<group>"; };
+		AF4BE0B61EF90897006C42E7 /* jolibee.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jolibee.jpeg; sourceTree = "<group>"; };
+		AF4BE0B71EF90897006C42E7 /* sm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sm.jpeg; sourceTree = "<group>"; };
+		AF4BE0B81EF90897006C42E7 /* ayara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ayara.jpg; sourceTree = "<group>"; };
+		AF4BE0B91EF90897006C42E7 /* inasal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inasal.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,15 @@
 			children = (
 				AF4BE0821EF79BC2006C42E7 /* AppDelegate.swift */,
 				AF4BE0841EF79BC2006C42E7 /* ViewController.swift */,
+				AF4BE0B41EF7B4D9006C42E7 /* second.swift */,
 				AF4BE0861EF79BC2006C42E7 /* Main.storyboard */,
+				AF4BE0B01EF7A67E006C42E7 /* placelist.plist */,
 				AF4BE0891EF79BC2006C42E7 /* Assets.xcassets */,
 				AF4BE08B1EF79BC2006C42E7 /* LaunchScreen.storyboard */,
+				AF4BE0B61EF90897006C42E7 /* jolibee.jpeg */,
+				AF4BE0B71EF90897006C42E7 /* sm.jpeg */,
+				AF4BE0B81EF90897006C42E7 /* ayara.jpg */,
+				AF4BE0B91EF90897006C42E7 /* inasal.jpeg */,
 				AF4BE08E1EF79BC2006C42E7 /* Info.plist */,
 			);
 			path = sampleMiniGuidebook;
@@ -232,9 +250,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4BE0BA1EF90897006C42E7 /* jolibee.jpeg in Resources */,
 				AF4BE08D1EF79BC2006C42E7 /* LaunchScreen.storyboard in Resources */,
 				AF4BE08A1EF79BC2006C42E7 /* Assets.xcassets in Resources */,
+				AF4BE0BC1EF90897006C42E7 /* ayara.jpg in Resources */,
+				AF4BE0BB1EF90897006C42E7 /* sm.jpeg in Resources */,
+				AF4BE0B11EF7A67E006C42E7 /* placelist.plist in Resources */,
 				AF4BE0881EF79BC2006C42E7 /* Main.storyboard in Resources */,
+				AF4BE0BD1EF90897006C42E7 /* inasal.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +284,7 @@
 			files = (
 				AF4BE0851EF79BC2006C42E7 /* ViewController.swift in Sources */,
 				AF4BE0831EF79BC2006C42E7 /* AppDelegate.swift in Sources */,
+				AF4BE0B51EF7B4D9006C42E7 /* second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +531,7 @@
 				AF4BE0A91EF79BC3006C42E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF4BE0AA1EF79BC3006C42E7 /* Build configuration list for PBXNativeTarget "sampleMiniGuidebookTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +540,7 @@
 				AF4BE0AC1EF79BC3006C42E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF4BE0AD1EF79BC3006C42E7 /* Build configuration list for PBXNativeTarget "sampleMiniGuidebookUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +549,7 @@
 				AF4BE0AF1EF79BC3006C42E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

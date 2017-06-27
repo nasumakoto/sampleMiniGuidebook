@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>INASAL</key>
+	<dict>
+		<key>description</key>
+		<string>Coco Martinが目印！フィリピン人のFavorite food！</string>
+		<key>image</key>
+		<string>inasal.jpeg</string>
+		<key>latitude</key>
+		<string>10.328883</string>
+		<key>longitude</key>
+		<string>123.903008</string>
+	</dict>
+	<key>JOLIBEE</key>
+	<dict>
+		<key>description</key>
+		<string>フィリピンに来たらまずは食べないとね。</string>
+		<key>image</key>
+		<string>jolibee.jpeg</string>
+		<key>latitude</key>
+		<string>10.329976</string>
+		<key>longitude</key>
+		<string>123.898006</string>
+	</dict>
+	<key>SM</key>
+	<dict>
+		<key>description</key>
+		<string>フィリピン人の日常の買い物はココ！</string>
+		<key>image</key>
+		<string>sm.jpeg</string>
+		<key>latitude</key>
+		<string>10.331750</string>
+		<key>longitude</key>
+		<string>123.918443</string>
+	</dict>
+	<key>AYARA</key>
+	<dict>
+		<key>description</key>
+		<string>CEBUの中心地</string>
+		<key>image</key>
+		<string>ayara.jpg</string>
+		<key>latitude</key>
+		<string>10.318023</string>
+		<key>longitude</key>
+		<string>123.905005</string>
+	</dict>
+</dict>
+</plist>
