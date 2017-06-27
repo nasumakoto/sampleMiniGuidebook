@@ -24,7 +24,7 @@ class second: UIViewController {
 
         let filePath = Bundle.main.path(forResource: "placelist", ofType: "plist")
         
-        // プロパティリストからdataを取得（ディクショナリー型）
+        // プロパティリストからdataを取得（ディクショナリー型）だよね
         let dic = NSDictionary(contentsOfFile: filePath!)
       
         // 指定されたエリア名をキーにして、画面に必要な情報を取得
